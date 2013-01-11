@@ -10,6 +10,21 @@
 
 @implementation ZodiacViewController
 
+@synthesize orderTypePicker;
+
+-(NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView{
+    return 1;
+}
+
+-(NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component{
+    return 5;
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component;
+{
+    return [orderTypes objectAtIndex:row];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -22,6 +37,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    orderTypes = [[NSMutableArray alloc] init];
+    [orderTypes addObject:@" Type1 "];
+    [orderTypes addObject:@" Type2 "];
+    [orderTypes addObject:@" Type3 "];
+    [orderTypes addObject:@" Type4 "];
+    [orderTypes addObject:@" Type5 "];
 }
 
 - (void)viewDidUnload
@@ -60,5 +82,4 @@
         return YES;
     }
 }
-
 @end

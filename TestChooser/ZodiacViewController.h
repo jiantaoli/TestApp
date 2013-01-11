@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZodiacViewController : UIViewController
+@interface ZodiacViewController : UIViewController<UIPickerViewDelegate, UIPickerViewDataSource>{
+    IBOutlet UIPickerView *orderTypePicker;
+    
+    NSMutableArray *orderTypes;
+}
+
+@property (nonatomic, retain) IBOutlet UIPickerView *orderTypePicker;
 
 @end

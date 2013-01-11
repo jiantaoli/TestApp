@@ -23,15 +23,15 @@
 		6CC888B51522BA8500CD923B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6CC888B71522BA8500CD923B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6CC888B91522BA8500CD923B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6CC888BD1522BA8500CD923B /* TestChooser-Info.plist */ = {isa = PBXFileReference; path = "TestChooser-Info.plist"; sourceTree = "<group>"; };
+		6CC888BD1522BA8500CD923B /* TestChooser-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestChooser-Info.plist"; sourceTree = "<group>"; };
 		6CC888BF1522BA8500CD923B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6CC888C11522BA8500CD923B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6CC888C31522BA8500CD923B /* TestChooser-Prefix.pch */ = {isa = PBXFileReference; path = "TestChooser-Prefix.pch"; sourceTree = "<group>"; };
-		6CC888C41522BA8500CD923B /* ZodiacAppDelegate.h */ = {isa = PBXFileReference; path = ZodiacAppDelegate.h; sourceTree = "<group>"; };
+		6CC888C31522BA8500CD923B /* TestChooser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestChooser-Prefix.pch"; sourceTree = "<group>"; };
+		6CC888C41522BA8500CD923B /* ZodiacAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZodiacAppDelegate.h; sourceTree = "<group>"; };
 		6CC888C51522BA8500CD923B /* ZodiacAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZodiacAppDelegate.m; sourceTree = "<group>"; };
 		6CC888C81522BA8500CD923B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		6CC888CB1522BA8500CD923B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		6CC888CD1522BA8500CD923B /* ZodiacViewController.h */ = {isa = PBXFileReference; path = ZodiacViewController.h; sourceTree = "<group>"; };
+		6CC888CD1522BA8500CD923B /* ZodiacViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZodiacViewController.h; sourceTree = "<group>"; };
 		6CC888CE1522BA8500CD923B /* ZodiacViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZodiacViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
